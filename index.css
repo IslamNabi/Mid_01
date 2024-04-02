@@ -1,0 +1,47 @@
+.slider-container {
+    position: relative;
+    overflow: hidden;
+    width: 600px;
+    height: 400px;
+    margin: 0 auto;
+}
+
+.slider-image {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+   
+}
+
+.active {
+    opacity: 1;
+}
+
+.prev, .next {
+    position: absolute;
+    top: 50%;
+    background: #333;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+}
+
+.next {
+    right: 10px;
+}
+
+.thumbnails-container {
+    margin-top: 20px;
+    text-align: center;
+}
+
+.thumbnail {
+    width: 100px;
+    height: 75px;
+    margin: 0 5px;
+    cursor: pointer;
+}
+
+.active-thumbnail {
+    border: 2px solid #333;
+}
