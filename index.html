@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Image Slider</title>
+    <link rel="stylesheet" href="index.css">
+</head>
+<body>
+    <div class="slider-container">
+        <img src="one.svg" alt="Image 1" class="slider-image active">
+        <img src="two.svg" alt="Image 2" class="slider-image">
+        <img src="three.svg" alt="Image 3" class="slider-image">
+        <button class="left" onclick="prevSlide()">left</button>
+        <button class="right" onclick="nextSlide()">right</button>
+    </div>
+    <div class="thumbnails-container">
+        <img src="one.svg" alt="Thumbnail 1" class="thumbnail active-thumbnail" onclick="jumpToSlide(0)">
+        <img src="two.svg" alt="Thumbnail 2" class="thumbnail" onclick="jumpToSlide(1)">
+        <img src="three.svg" alt="Thumbnail 3" class="thumbnail" onclick="jumpToSlide(2)">
+    </div>
+    <script src="index.js"></script>
+</body>
+</html>
+
